@@ -36,17 +36,4 @@ jobs:
       - uses: dominikh/staticcheck-action@v1
         with:
           version: "latest"
-           
-  lint:
-    name: Lint
-    runs-on: ubuntu-latest
-
-    steps:
-    
-       - name: Check out code
-         uses: actions/checkout@v4
-        
-       - uses: dominikh/staticcheck-action@v1
-         with:
-           version: "latest"
 
